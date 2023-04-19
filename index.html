@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      background-color: hsl(185, 41%, 84%);
+      text-align: center;
+    }
+    a{
+      text-decoration-line: none;
+    }
+    #logo{
+      color: hsl(184, 14%, 56%);
+    }
+    #body{
+      background-color: #fff;
+      margin: 5rem 15rem;
+      border-radius: 5%;
+      height: 500px;
+      width: 800px;
+      padding: 2rem;
+      text-align: left;
+    }
+    .h12{
+      position: absolute;
+      right: 1rem;
+    }
+    .flex{
+      display: flex;
+    }
+    .con{
+      padding: 1rem;
+    }
+    .con2{
+      background-color: hsl(183, 100%, 15%);
+      border-radius: 20px;
+      color: #fff;
+      position: relative;
+      left: 3rem;
+      width: 300px;
+    }
+    .p1{
+      background-color: hsl(189, 41%, 97%);
+      border-radius: 10px;
+      height: 20px;
+      width: 100%;
+      padding: 1rem;
+      color: hsl(183, 100%, 15%);
+      font-size: 30px;
+    }
+    .img1{
+      margin-right: 80%;
+    }
+    .para{
+      display: inline-block;
+      position: relative;
+    }
+    .c{
+      background-color:  hsl(183, 100%, 15%);
+      border-radius: 10px;
+      width: 50px;
+      padding: 1rem;
+      color: #fff;
+      margin-left: 3rem;
+      margin-top: 1rem;
+    }
+    .btn{
+      background-color: hsl(172, 67%, 45%);
+      border-radius: 10px;
+      color: hsl(183, 100%, 15%);
+      display: inline-block;
+      text-align: center;
+      padding: 1rem;
+      text-decoration-line: none;
+      width: 250px;
+      position: absolute;
+      bottom:3rem;
+    }
+    .p2{
+      color: hsl(186, 14%, 43%);
+    }
+    .h32{
+      color: hsl(172, 67%, 45%);
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header id="logo">
+    <h1>SPLI</h1>
+    <h1>TTER</h1>
+  </header>
+  <main id="body" class="flex">
+    <div class="con1 con">
+      <h3>Bill</h3>
+      <p class="flex p1"><img class="img1" src="images/icon-dollar.svg" alt="dollar">143</p>
+      <h3>Select tip</h3>
+      <div class="cc flex">
+        <a href="#" class="c1 c">5%</a>
+        <a href="#" class="c2 c">10%</a>
+        <a href="#" class="c3 c">15%</a>
+      </div>
+      <div class="cc flex">
+        <a href="#" class="c4 c">25%</a>
+        <a href="#" class="c5 c">50%</a>
+        <a href="#" class="c6 c">Custom</a>
+      </div>
+    <h3>Number of people</h3>
+    <p class="flex p1"><img class="img1" src="images/icon-person.svg" alt="person">5</p>
+
+    </div>
+    <div class="con2 con">
+      <div class="flex">
+        <div><h3 class="h32">Tip Amount</h3><p class="p2">/person</p></div>
+        <h1 class="h12">$4.2</h1>
+      </div>
+      <div class="flex">
+        <div><h3 class="h32">Total</h3><p class="p2">/person</p></div>
+        <h1 class="h12">$32.7</h1>
+      </div>
+      <a class="btn" href="#">Reset</a>
+    </div>
+
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="#">Frontend Mentor</a>. 
+    Coded by <a href="#">Abhishek Bansal</a>.
+  </div>
+</body>
+</html>
